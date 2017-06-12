@@ -15,6 +15,16 @@
 		1B86149C1DEE948500F31617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B86149A1DEE948500F31617 /* LaunchScreen.storyboard */; };
 		1B8614A71DEE948500F31617 /* AVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8614A61DEE948500F31617 /* AVPlayerTests.m */; };
 		1B8614B21DEE948500F31617 /* AVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8614B11DEE948500F31617 /* AVPlayerUITests.m */; };
+		1B8614C01DEE949500F31617 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8614BF1DEE949500F31617 /* AVFoundation.framework */; };
+		1B8614C21DEE949B00F31617 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8614C11DEE949B00F31617 /* AVKit.framework */; };
+		1B8614C41DEEA49F00F31617 /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1B8614C31DEE94E900F31617 /* xx.mp4 */; };
+		1B9ED5921DF28B600060A060 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED58C1DF28B600060A060 /* Icon-App-29x29@2x.png */; };
+		1B9ED5931DF28B600060A060 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED58D1DF28B600060A060 /* Icon-App-29x29@3x.png */; };
+		1B9ED5941DF28B600060A060 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED58E1DF28B600060A060 /* Icon-App-40x40@2x.png */; };
+		1B9ED5951DF28B600060A060 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED58F1DF28B600060A060 /* Icon-App-40x40@3x.png */; };
+		1B9ED5961DF28B600060A060 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED5901DF28B600060A060 /* Icon-App-60x60@2x.png */; };
+		1B9ED5971DF28B600060A060 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ED5911DF28B600060A060 /* Icon-App-60x60@3x.png */; };
+		1BF9719A1DF2E515009B100D /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF971991DF2E515009B100D /* logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B8614891DEE948500F31617 /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8614891DEE948500F31617 /* KutCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KutCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86148D1DEE948500F31617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B86148F1DEE948500F31617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B8614901DEE948500F31617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +55,22 @@
 		1B8614981DEE948500F31617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B86149B1DEE948500F31617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B86149D1DEE948500F31617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B8614A21DEE948500F31617 /* AVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8614A21DEE948500F31617 /* KutCost.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KutCost.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8614A61DEE948500F31617 /* AVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerTests.m; sourceTree = "<group>"; };
 		1B8614A81DEE948500F31617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B8614AD1DEE948500F31617 /* AVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8614AD1DEE948500F31617 /* KutCost.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KutCost.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8614B11DEE948500F31617 /* AVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerUITests.m; sourceTree = "<group>"; };
 		1B8614B31DEE948500F31617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8614BF1DEE949500F31617 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B8614C11DEE949B00F31617 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1B8614C31DEE94E900F31617 /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = SOURCE_ROOT; };
+		1B9ED58C1DF28B600060A060 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "Icon/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		1B9ED58D1DF28B600060A060 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@3x.png"; path = "Icon/Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		1B9ED58E1DF28B600060A060 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@2x.png"; path = "Icon/Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		1B9ED58F1DF28B600060A060 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@3x.png"; path = "Icon/Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		1B9ED5901DF28B600060A060 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "Icon/Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		1B9ED5911DF28B600060A060 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "Icon/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		1BF971991DF2E515009B100D /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8614C21DEE949B00F31617 /* AVKit.framework in Frameworks */,
+				1B8614C01DEE949500F31617 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,8 @@
 		1B8614801DEE948400F31617 = {
 			isa = PBXGroup;
 			children = (
+				1B8614C11DEE949B00F31617 /* AVKit.framework */,
+				1B8614BF1DEE949500F31617 /* AVFoundation.framework */,
 				1B86148B1DEE948500F31617 /* AVPlayer */,
 				1B8614A51DEE948500F31617 /* AVPlayerTests */,
 				1B8614B01DEE948500F31617 /* AVPlayerUITests */,
@@ -91,9 +115,9 @@
 		1B86148A1DEE948500F31617 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B8614891DEE948500F31617 /* AVPlayer.app */,
-				1B8614A21DEE948500F31617 /* AVPlayerTests.xctest */,
-				1B8614AD1DEE948500F31617 /* AVPlayerUITests.xctest */,
+				1B8614891DEE948500F31617 /* KutCost.app */,
+				1B8614A21DEE948500F31617 /* KutCost.xctest */,
+				1B8614AD1DEE948500F31617 /* KutCost.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +125,8 @@
 		1B86148B1DEE948500F31617 /* AVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				1B9ED5731DF2858B0060A060 /* Icon */,
+				1B8614C31DEE94E900F31617 /* xx.mp4 */,
 				1B86148F1DEE948500F31617 /* AppDelegate.h */,
 				1B8614901DEE948500F31617 /* AppDelegate.m */,
 				1B8614921DEE948500F31617 /* ViewController.h */,
@@ -111,7 +137,8 @@
 				1B86149D1DEE948500F31617 /* Info.plist */,
 				1B86148C1DEE948500F31617 /* Supporting Files */,
 			);
-			path = AVPlayer;
+			name = AVPlayer;
+			path = KutCost;
 			sourceTree = "<group>";
 		};
 		1B86148C1DEE948500F31617 /* Supporting Files */ = {
@@ -140,12 +167,26 @@
 			path = AVPlayerUITests;
 			sourceTree = "<group>";
 		};
+		1B9ED5731DF2858B0060A060 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1BF971991DF2E515009B100D /* logo.jpeg */,
+				1B9ED58C1DF28B600060A060 /* Icon-App-29x29@2x.png */,
+				1B9ED58D1DF28B600060A060 /* Icon-App-29x29@3x.png */,
+				1B9ED58E1DF28B600060A060 /* Icon-App-40x40@2x.png */,
+				1B9ED58F1DF28B600060A060 /* Icon-App-40x40@3x.png */,
+				1B9ED5901DF28B600060A060 /* Icon-App-60x60@2x.png */,
+				1B9ED5911DF28B600060A060 /* Icon-App-60x60@3x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B8614881DEE948500F31617 /* AVPlayer */ = {
+		1B8614881DEE948500F31617 /* KutCost */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B8614B61DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayer" */;
+			buildConfigurationList = 1B8614B61DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCost" */;
 			buildPhases = (
 				1B8614851DEE948500F31617 /* Sources */,
 				1B8614861DEE948500F31617 /* Frameworks */,
@@ -155,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = AVPlayer;
+			name = KutCost;
 			productName = AVPlayer;
-			productReference = 1B8614891DEE948500F31617 /* AVPlayer.app */;
+			productReference = 1B8614891DEE948500F31617 /* KutCost.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B8614A11DEE948500F31617 /* AVPlayerTests */ = {
+		1B8614A11DEE948500F31617 /* KutCostTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B8614B91DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayerTests" */;
+			buildConfigurationList = 1B8614B91DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCostTests" */;
 			buildPhases = (
 				1B86149E1DEE948500F31617 /* Sources */,
 				1B86149F1DEE948500F31617 /* Frameworks */,
@@ -173,14 +214,14 @@
 			dependencies = (
 				1B8614A41DEE948500F31617 /* PBXTargetDependency */,
 			);
-			name = AVPlayerTests;
+			name = KutCostTests;
 			productName = AVPlayerTests;
-			productReference = 1B8614A21DEE948500F31617 /* AVPlayerTests.xctest */;
+			productReference = 1B8614A21DEE948500F31617 /* KutCost.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1B8614AC1DEE948500F31617 /* AVPlayerUITests */ = {
+		1B8614AC1DEE948500F31617 /* KutCostUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B8614BC1DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayerUITests" */;
+			buildConfigurationList = 1B8614BC1DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCostUITests" */;
 			buildPhases = (
 				1B8614A91DEE948500F31617 /* Sources */,
 				1B8614AA1DEE948500F31617 /* Frameworks */,
@@ -191,9 +232,9 @@
 			dependencies = (
 				1B8614AF1DEE948500F31617 /* PBXTargetDependency */,
 			);
-			name = AVPlayerUITests;
+			name = KutCostUITests;
 			productName = AVPlayerUITests;
-			productReference = 1B8614AD1DEE948500F31617 /* AVPlayerUITests.xctest */;
+			productReference = 1B8614AD1DEE948500F31617 /* KutCost.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B8614841DEE948400F31617 /* Build configuration list for PBXProject "AVPlayer" */;
+			buildConfigurationList = 1B8614841DEE948400F31617 /* Build configuration list for PBXProject "KutCost" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +272,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B8614881DEE948500F31617 /* AVPlayer */,
-				1B8614A11DEE948500F31617 /* AVPlayerTests */,
-				1B8614AC1DEE948500F31617 /* AVPlayerUITests */,
+				1B8614881DEE948500F31617 /* KutCost */,
+				1B8614A11DEE948500F31617 /* KutCostTests */,
+				1B8614AC1DEE948500F31617 /* KutCostUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,8 +284,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8614C41DEEA49F00F31617 /* xx.mp4 in Resources */,
+				1B9ED5931DF28B600060A060 /* Icon-App-29x29@3x.png in Resources */,
+				1B9ED5921DF28B600060A060 /* Icon-App-29x29@2x.png in Resources */,
 				1B86149C1DEE948500F31617 /* LaunchScreen.storyboard in Resources */,
+				1B9ED5971DF28B600060A060 /* Icon-App-60x60@3x.png in Resources */,
 				1B8614991DEE948500F31617 /* Assets.xcassets in Resources */,
+				1B9ED5961DF28B600060A060 /* Icon-App-60x60@2x.png in Resources */,
+				1B9ED5951DF28B600060A060 /* Icon-App-40x40@3x.png in Resources */,
+				1B9ED5941DF28B600060A060 /* Icon-App-40x40@2x.png in Resources */,
+				1BF9719A1DF2E515009B100D /* logo.jpeg in Resources */,
 				1B8614971DEE948500F31617 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +346,12 @@
 /* Begin PBXTargetDependency section */
 		1B8614A41DEE948500F31617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B8614881DEE948500F31617 /* AVPlayer */;
+			target = 1B8614881DEE948500F31617 /* KutCost */;
 			targetProxy = 1B8614A31DEE948500F31617 /* PBXContainerItemProxy */;
 		};
 		1B8614AF1DEE948500F31617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B8614881DEE948500F31617 /* AVPlayer */;
+			target = 1B8614881DEE948500F31617 /* KutCost */;
 			targetProxy = 1B8614AE1DEE948500F31617 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,10 +464,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AVPlayer/Info.plist;
+				INFOPLIST_FILE = KutCost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = blis.KutCost;
+				PRODUCT_NAME = KutCost;
 			};
 			name = Debug;
 		};
@@ -426,10 +475,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AVPlayer/Info.plist;
+				INFOPLIST_FILE = KutCost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = blis.KutCost;
+				PRODUCT_NAME = KutCost;
 			};
 			name = Release;
 		};
@@ -440,8 +489,8 @@
 				INFOPLIST_FILE = AVPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer.app/AVPlayer";
+				PRODUCT_NAME = KutCost;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KutCost.app/KutCost";
 			};
 			name = Debug;
 		};
@@ -452,8 +501,8 @@
 				INFOPLIST_FILE = AVPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer.app/AVPlayer";
+				PRODUCT_NAME = KutCost;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KutCost.app/KutCost";
 			};
 			name = Release;
 		};
@@ -463,7 +512,7 @@
 				INFOPLIST_FILE = AVPlayerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KutCost;
 				TEST_TARGET_NAME = AVPlayer;
 			};
 			name = Debug;
@@ -474,7 +523,7 @@
 				INFOPLIST_FILE = AVPlayerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blis.AVPlayerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KutCost;
 				TEST_TARGET_NAME = AVPlayer;
 			};
 			name = Release;
@@ -482,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B8614841DEE948400F31617 /* Build configuration list for PBXProject "AVPlayer" */ = {
+		1B8614841DEE948400F31617 /* Build configuration list for PBXProject "KutCost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B8614B41DEE948500F31617 /* Debug */,
@@ -491,29 +540,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B8614B61DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayer" */ = {
+		1B8614B61DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B8614B71DEE948500F31617 /* Debug */,
 				1B8614B81DEE948500F31617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1B8614B91DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayerTests" */ = {
+		1B8614B91DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCostTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B8614BA1DEE948500F31617 /* Debug */,
 				1B8614BB1DEE948500F31617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1B8614BC1DEE948500F31617 /* Build configuration list for PBXNativeTarget "AVPlayerUITests" */ = {
+		1B8614BC1DEE948500F31617 /* Build configuration list for PBXNativeTarget "KutCostUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B8614BD1DEE948500F31617 /* Debug */,
 				1B8614BE1DEE948500F31617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
